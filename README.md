@@ -1,6 +1,6 @@
 # Figure 3 Machine-Learning Reproducibility Package
 
-This package contains the public, Figure 3-specific materials for the Pharmaceuticals manuscript. It is based only on the verified analysis version used for the final Figure 3. It does not include Figure 4, immune-infiltration analyses, GSE237861, single-cell analyses, or docking results.
+This package contains the public, Figure 3-specific materials for the Pharmaceuticals manuscript. It is based only on the verified analysis version used for the final Figure 3. 
 
 ## Study datasets
 
