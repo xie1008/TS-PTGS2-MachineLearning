@@ -1,0 +1,12 @@
+GEO input files used
+
+work/geo/GSE10474_series_matrix.txt.gz
+work/geo/GSE32707_series_matrix.txt.gz
+work/geo/GSE66890_series_matrix.txt.gz
+work/geo/GPL571-17391.txt
+
+Bioconductor annotation packages used
+illuminaHumanv4.db for GPL10558
+hugene10sttranscriptcluster.db for GPL6244
+
+GPL571 was mapped with the local GPL571-17391 official platform annotation table because hgu133a2.db was not installed in the execution environment.

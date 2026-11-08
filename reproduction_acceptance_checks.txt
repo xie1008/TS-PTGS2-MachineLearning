@@ -1,0 +1,8 @@
+PASS platform IDs
+PASS all 20 Hub genes mapped
+PASS unique GSM IDs
+PASS no included patient duplicates
+PASS prespecified included sample count 139
+PASS candidate gene restriction
+PASS fold AUC reproducibility
+PASS explicit per-dataset log2 decision
