@@ -50,5 +50,5 @@ The acceptance script verifies sample counts, unique GSM/patient identifiers, pl
 
 ## Publicity and scope
 
-The package contains no account credentials, access tokens, or personal identifiers beyond public GEO sample identifiers. The model-result CSVs and Figure 3 files are copied from the verified analysis version; no obsolete RF AUC or historical model result is included.
+The package contains no account credentials, access tokens, or personal identifiers beyond public GEO sample identifiers. The model-result CSVs and Figure 3 files are copied from the verified analysis version.
 
