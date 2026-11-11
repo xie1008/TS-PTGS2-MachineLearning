@@ -1,10 +1,10 @@
 # Figure 3 Machine-Learning Reproducibility Package
 
-This package contains the public, Figure 3-specific materials for the Pharmaceuticals manuscript. It is based only on the verified analysis version used for the final Figure 3. It does not include Figure 4, immune-infiltration analyses, GSE237861, single-cell analyses, or docking results.
+This package contains the public, Figure 3-specific materials for the Pharmaceuticals manuscript. It is based only on the verified analysis version used for the final Figure 3. 
 
 ## Study datasets
 
-The analysis uses GSE10474 (GPL571), GSE32707 (GPL10558), and GSE66890 (GPL6244). The included series-matrix files are the GEO inputs used by the verified analysis. The metadata table documents GSM identifiers, source annotations, labels, patient identifiers, inclusion/exclusion decisions, and platforms. The analysis contains 139 prespecified included samples.
+The analysis uses GSE10474 (GPL571), GSE32707 (GPL10558), and GSE66890 (GPL6244). The included series-matrix files are the GEO inputs used by the verified analysis. The metadata table documents GSM identifiers, source annotations, labels, patient identifiers, inclusion/exclusion decisions, and platforms. 
 
 ## Candidate hub genes
 
@@ -12,7 +12,7 @@ The 20 candidate genes are the Figure 2D hub-gene universe:
 
 ALOX5, BCL2L1, EP300, ESR1, ESR2, GSK3B, HMGCR, HSP90AA1, IKBKB, IL1B, JUN, MCL1, NFKB1, PKM, PPARA, PPARG, PRKCA, PTGES, PTGS2, STAT3.
 
-They were selected in the upstream Figure 2 biological-screening workflow. Figure 3 is therefore a conditional/exploratory validation within this preselected candidate universe. This package does not claim that the upstream DEG, WGCNA, network-pharmacology, and PPI intersection was independently repeated inside every outer training fold.
+They were selected in the upstream Figure 2 biological-screening workflow. Figure 3 is therefore a conditional/exploratory validation within this preselected candidate universe.
 
 ## Preprocessing
 
