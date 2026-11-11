@@ -1,0 +1,4 @@
+GSE,platform,raw_probe_count,mapped_probe_count,mapped_gene_count,hub_gene_coverage
+GSE10474,GPL571,22277,21225,13515,20
+GSE32707,GPL10558,47220,35682,21183,20
+GSE66890,GPL6244,25127,20570,19159,20

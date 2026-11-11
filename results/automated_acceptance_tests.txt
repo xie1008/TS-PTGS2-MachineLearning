@@ -1,0 +1,16 @@
+PASS included sample count is 139
+PASS included GSM IDs are unique
+PASS included patient IDs are unique within GSE
+PASS GSE32707 inclusion is Day 0 only
+PASS GSE32707 group counts are 30/18
+PASS platform IDs match GEO series
+PASS all 20 Hub genes map on every platform
+PASS Hub mapping table contains all 20 genes
+PASS log2 decisions are prespecified and dataset-specific
+PASS each sample has one outer-test assignment
+PASS all eight models are present
+PASS fold AUC reproduces from OOF probabilities
+PASS each model has five outer-fold AUCs
+PASS all fold statistics are restricted to the 20 genes
+PASS selection reasons are explicit
+PASS PTGS2 summary reproduces from sample values

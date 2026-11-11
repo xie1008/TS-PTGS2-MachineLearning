@@ -1,0 +1,9 @@
+model,hyperparameters_tuned,search_range,optimal_setting,mean_auc_sd,nested_cv_auc_95CI
+DT,cp,cp: 0.001–0.05,Fold 1: cp=0.05 | Fold 2: cp=0.001 | Fold 3: cp=0.05 | Fold 4: cp=0.001 | Fold 5: cp=0.001,0.573 ± 0.119,0.581 (0.485–0.677)
+GBM,n.trees; interaction.depth; shrinkage; n.minobsinnode,n.trees: 50–100; interaction.depth: 1–2; shrinkage: 0.05; n.minobsinnode: 5,Fold 1: n.trees=50; interaction.depth=1; shrinkage=0.05; n.minobsinnode=5 | Fold 2: n.trees=50; interaction.depth=1; shrinkage=0.05; n.minobsinnode=5 | Fold 3: n.trees=100; interaction.depth=1; shrinkage=0.05; n.minobsinnode=5 | Fold 4: n.trees=50; interaction.depth=1; shrinkage=0.05; n.minobsinnode=5 | Fold 5: n.trees=50; interaction.depth=1; shrinkage=0.05; n.minobsinnode=5,0.588 ± 0.061,0.582 (0.488–0.677)
+GLM,none (ordinary logistic regression),No inner hyperparameter grid,ordinary logistic regression,0.596 ± 0.093,0.596 (0.502–0.691)
+KNN,k,k: 3–7,Fold 1: k=5 | Fold 2: k=5 | Fold 3: k=7 | Fold 4: k=3 | Fold 5: k=3,0.553 ± 0.131,0.572 (0.477–0.667)
+LASSO,alpha; lambda,alpha: 1; lambda: 0.001–0.1,Fold 1: alpha=1; lambda=0.1 | Fold 2: alpha=1; lambda=0.001 | Fold 3: alpha=1; lambda=0.001 | Fold 4: alpha=1; lambda=0.01 | Fold 5: alpha=1; lambda=0.1,0.588 ± 0.098,0.559 (0.463–0.655)
+NNET,size; decay,size: 2–5; decay: 0–0.01,Fold 1: size=2; decay=0.01 | Fold 2: size=5; decay=0 | Fold 3: size=5; decay=0 | Fold 4: size=2; decay=0.01 | Fold 5: size=5; decay=0.01,0.541 ± 0.097,0.552 (0.454–0.651)
+RF,mtry,mtry: 2–6,Fold 1: mtry=2 | Fold 2: mtry=4 | Fold 3: mtry=4 | Fold 4: mtry=6 | Fold 5: mtry=6,0.553 ± 0.066,0.551 (0.455–0.647)
+SVM,C; sigma,C: 0.1–10; sigma: 0.01–0.1,Fold 1: C=1; sigma=0.01 | Fold 2: C=1; sigma=0.01 | Fold 3: C=1; sigma=0.01 | Fold 4: C=1; sigma=0.01 | Fold 5: C=10; sigma=0.1,0.589 ± 0.077,0.564 (0.467–0.660)

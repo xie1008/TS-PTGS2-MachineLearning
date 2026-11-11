@@ -1,0 +1,13 @@
+Verified raw-data audit
+
+GSE10474 is GPL571 (HG-U133A 2.0); GPL571-17391.txt was used. GSE32707 is GPL10558 (Illumina HumanHT-12 v4); illuminaHumanv4.db was used. GSE66890 is GPL6244 (Human Gene 1.0 ST); hugene10sttranscriptcluster.db was used.
+
+The primary groups are: GSE10474, 13 acute-lung-injury/SILI and 21 sepsis-alone controls; GSE32707, 18 se/ARDS Day 0 and 30 Sepsis Day 0; GSE66890, 29 sepsis-with-ARDS and 28 sepsis-alone. SIRS, untreated and all Day 7 GSE32707 samples were excluded. GEO-excluded GSE66890 samples were excluded. Total included n=139.
+
+Scale processing was specified by dataset and supported by GEO processing metadata, not by a post-aggregation max-value rule. GSE10474 and GSE66890 were treated as log2-scale; GSE32707 received log2(x+1) before gene aggregation. Probes mapped to the same gene were summarized by within-sample median. No probe values were directly added.
+
+All 20 Figure 2D genes mapped on all three platforms. The complete probe-to-gene table is hub_gene_probe_mapping.csv; platform counts are platform_mapping_audit.csv; sample-level preprocessing records are preprocessing_audit.csv.
+
+PTGS2 direction: GSE10474 probe 204748_at, Control mean 6.139457, SILI mean 5.396015, logFC -0.743442, P=0.2615, FDR=0.8601. GSE32707 probes ILMN_1677511 and ILMN_2054297, summarized Control mean 7.383335, SILI mean 7.163993, logFC -0.219342, P=0.2287, FDR=0.5938. GSE66890 probe 7922976, Control mean 7.553119, SILI mean 7.222540, logFC -0.330578, P=0.00743, FDR=0.0743. These are whole-blood data and do not constitute direct lung-tissue evidence.
+
+The batch method is training-fitted per-platform location/scale harmonization. Batch means, batch SDs, training-global means and SDs are estimated only within the relevant training split; validation/test values use those frozen estimates. This is not ComBat and is explicitly documented as a limitation.

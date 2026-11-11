@@ -1,6 +1,6 @@
 # Figure 3 Machine-Learning Reproducibility Package
 
-This package contains the public, Figure 3-specific materials for the Pharmaceuticals manuscript. It is based only on the verified analysis version used for the final Figure 3. 
+This package contains the public, Figure 3-specific materials for the Pharmaceuticals manuscript. It is based only on the verified analysis version used for the final Figure 3. It does not include Figure 4, immune-infiltration analyses, GSE237861, single-cell analyses, or docking results.
 
 ## Study datasets
 
@@ -42,6 +42,8 @@ To regenerate Figure 3 from the preserved verified CSV outputs without retrainin
 
 This writes the PDF, PNG, and TIFF to figures/.
 
+Supplementary Table S2 is provided in tables/Supplementary_Table_S2_current.csv and tables/Supplementary_Table_S2_current.docx. The table is derived from inner_tuning_results.csv, model_summary.csv, and pooled_auc_ci_metrics.csv. It reports the five outer-fold mean AUC ± SD and the pooled outer-test out-of-fold AUC with its 95% CI. Because hyperparameters can differ by outer fold, all five fold-specific selected settings are listed.
+
 To run automated numerical checks:
 
     Rscript scripts/automated_acceptance_tests.R
@@ -50,5 +52,5 @@ The acceptance script verifies sample counts, unique GSM/patient identifiers, pl
 
 ## Publicity and scope
 
-The package contains no account credentials, access tokens, or personal identifiers beyond public GEO sample identifiers. The model-result CSVs and Figure 3 files are copied from the verified analysis version.
+The package contains no account credentials, access tokens, or personal identifiers beyond public GEO sample identifiers. The model-result CSVs and Figure 3 files are copied from the verified analysis version; no obsolete RF AUC or historical model result is included.
 
